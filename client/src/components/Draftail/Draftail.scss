@@ -18,7 +18,7 @@ $draftail-editor-padding: theme('spacing.[2.5]') theme('spacing.5');
 $draftail-editor-background: theme('colors.surface-field');
 $draftail-block-spacing: theme('spacing.[2.5]');
 $draftail-toolbar-radius: theme('borderRadius.DEFAULT');
-$draftail-toolbar-icon-size: 1em;
+$draftail-toolbar-icon-width: 1em;
 
 $draftail-trigger-additional-size: 30px;
 $draftail-block-hoverable-area-offset: 40px;
@@ -239,8 +239,8 @@ $draftail-editor-font-family: $font-sans;
   }
 
   .icon {
-    width: $draftail-toolbar-icon-size;
-    height: $draftail-toolbar-icon-size;
+    width: $draftail-toolbar-icon-width;
+    height: 1.5rem;
     vertical-align: middle;
   }
 
@@ -250,8 +250,7 @@ $draftail-editor-font-family: $font-sans;
   .icon-h4,
   .icon-h5,
   .icon-h6 {
-    width: 1.25 * $draftail-toolbar-icon-size;
-    height: 1.25 * $draftail-toolbar-icon-size;
+    width: 1.25 * $draftail-toolbar-icon-width;
   }
 }
 
