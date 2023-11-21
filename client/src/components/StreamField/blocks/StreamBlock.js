@@ -107,7 +107,7 @@ class StreamBlockMenu extends BaseInsertionControl {
       interactive: true,
       theme: 'dropdown',
       arrow: false,
-      placement: 'bottom',
+      placement: 'right',
       plugins: [hideTooltipOnEsc],
       onShow: this.renderMenu.bind(this),
       onHidden: () => {
