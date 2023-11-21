@@ -116,6 +116,10 @@ $draftail-editor-font-family: $font-sans;
     }
   }
 
+  &--pin {
+    padding-inline-end: theme('spacing.12');
+  }
+
   .Draftail-ToolbarButton--active {
     @include light-theme() {
       background-color: theme('colors.surface-header');
@@ -261,14 +265,20 @@ $draftail-editor-font-family: $font-sans;
   }
 
   .Draftail-Toolbar & {
+    background-color: theme('colors.surface-header');
+    color: inherit;
     border-color: theme('colors.border-field-default');
-    background-color: theme('colors.surface-page');
     border-top-width: 0;
     border-inline-end-width: 0;
 
     .Draftail-Editor:hover & {
       border-color: theme('colors.border-field-hover');
     }
+  }
+
+  .icon {
+    position: relative;
+    top: -2px;
   }
 }
 
