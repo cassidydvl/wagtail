@@ -16,4 +16,8 @@
   &:hover .icon-comment-add-reversed {
     display: none;
   }
+
+  .Draftail-FloatingToolbar & {
+    color: theme('colors.secondary.100');
+  }
 }
